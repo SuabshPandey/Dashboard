@@ -1,0 +1,30 @@
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+    cursor:  pointer;
+  /* from box shadow generator */
+  box-shadow: -1px -2px 8px 5px rgba(176, 176, 176, 1);
+  -webkit-box-shadow: -1px -2px 8px 5px rgba(176, 176, 176, 1);
+  -moz-box-shadow: -1px -2px 8px 5px rgba(176, 176, 176, 1);
+}
+
+.featuredTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.featuredTitleContainer{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
